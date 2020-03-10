@@ -3,4 +3,5 @@ if [[ -n "$1" ]]; then
         ./load_cron.sh $1
 else
         echo "Error!"
+        cat README.md
 fi
